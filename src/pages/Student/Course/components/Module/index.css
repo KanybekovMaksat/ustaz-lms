@@ -1,0 +1,13 @@
+.module-content{
+    width: 85%;
+    border-radius: 10px;
+}
+.moduls{
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.module__info-btn:hover{
+    cursor: pointer;
+}

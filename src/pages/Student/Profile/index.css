@@ -1,0 +1,62 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+}
+.profile-user{
+  display: flex;
+  align-items: start;
+  column-gap: 120px;
+}
+
+
+.profileinfo{
+  margin-top: 35px;
+  
+}
+
+.profile__info-metricks{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.profile__metric-card{
+  width: 250px;
+  height: 70px;
+  border: 1px solid white;
+  box-shadow: 1px 3px 5px 5px rgba(0, 0, 0, 0.15);
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  column-gap: 10px;
+}
+.pwrapper{
+  display: flex;
+  column-gap: 50px;
+}
+.pm__card-title{
+  color: grey;
+  font-size: 14px;
+}
+.pm__card-metric{
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 132%; /* 26.4px */
+}
+
+
+.profile__info-exams{
+  margin-top: 50px;
+}
+.user__result-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.profile__exams-date{
+  width: 150px;
+}
+.profile__exams-title{
+  font-size: 18px;  
+}

@@ -1,0 +1,18 @@
+.mentor-container{
+    width: 100%;
+}
+.mc__emptytxt{
+    font-size: 14px;
+    color: grey;
+}
+.mcourse__addmodule{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    margin-top: 15px;
+    padding: 15px 30px;
+
+    border-radius: 5px;
+    border: none;
+}

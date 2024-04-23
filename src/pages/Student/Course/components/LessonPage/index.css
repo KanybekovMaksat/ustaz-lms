@@ -1,0 +1,18 @@
+.lp-title {
+  font-size: 50px;
+}
+.lp-content  {
+  display: flex;
+  flex-direction: column;
+}
+.lp-info > ol > li > ul {
+  margin-left: 30px;
+}
+.lp-info {
+  margin-top: 10px;
+}
+.lp-img{
+  height: 400px;
+  object-fit: cover;
+  margin: 20px 0px;
+}

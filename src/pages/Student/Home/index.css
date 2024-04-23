@@ -1,0 +1,112 @@
+.student-home {
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+.sh__welcome {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 18px;
+  box-shadow: 0 0 7px 3px grey;
+}
+.sh__courses-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.student-home {
+
+  display: flex;
+  flex-direction: column;
+}
+.sh__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 560px;
+}
+
+/* NewsCard.css */
+
+.news-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  margin: 16px;
+  transition: transform 0.2s;
+  background-color: #fff;
+}
+
+.news-card:hover {
+  transform: scale(1.05);
+}
+
+.news-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-details {
+  padding: 16px;
+}
+
+.news-title {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.author-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-size: 1em;
+  color: #777;
+}
+
+.news-date {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.views-info {
+  display: flex;
+  align-items: center;
+}
+
+.eye-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.views-count {
+  font-size: 0.9em;
+  color: #666;
+}

@@ -1,0 +1,26 @@
+.lesson-card{
+    width: 94%;
+    margin-top: 1px;
+    border-radius: 0;
+     max-height: 80px;
+     padding: 25px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .lesson-card:last-child{
+     border-radius: 0 0 10px 10px;
+ }
+ .lesson__card-btn{
+     display: flex;
+     align-items: center;
+     padding: 10px 10px;
+     background: #1F2A40;
+     color: white;
+     border: none;
+     border-radius: 5px;
+ }
+ .lesson__card-btn:active{
+    background: #182233;
+ }
+ 
